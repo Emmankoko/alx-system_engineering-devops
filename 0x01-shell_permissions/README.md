@@ -12,4 +12,7 @@
 12. 11-directories_permissions adds execute permission to all subdirectories of the current directory for owner,groupband users.
 13. 12-directory_permissions creates a directory called my_dir with permission 751
 14. 13-change_group changes the group owner to school for the file hello.
-
+15. 100-change_owner_and_group changes the owner to vincent and group owner to staff for all the files
+16. 101-symbolic_link_permissions changes the owner and group owner of _hello to vincent and staff respectively
+17. 102-if_only changes the owner of the file hello to betty only if it is owned by the user guillname
+18. 103-Star_Wars plays the StarWars IV episode in the terminal
